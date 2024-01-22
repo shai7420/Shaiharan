@@ -1,18 +1,23 @@
 {
   "files": {
     "main.css": "/Shaiharan/static/css/main.9340fd93.css",
-    "main.js": "/Shaiharan/static/js/main.72604f56.js",
+    "main.js": "/Shaiharan/static/js/main.40639d93.js",
     "static/js/787.82c93b8f.chunk.js": "/Shaiharan/static/js/787.82c93b8f.chunk.js",
+    "static/media/medscape.png": "/Shaiharan/static/media/medscape.283b2cabd2c456ff7847.png",
+    "static/media/Vortex.png": "/Shaiharan/static/media/Vortex.9f876bccf85d42ee8a80.png",
     "static/media/mountains.png": "/Shaiharan/static/media/mountains.6bceb498a0e1e0a70b47.png",
+    "static/media/hero.png": "/Shaiharan/static/media/hero.b9d9325673e9e30e5f80.png",
+    "static/media/figma.png": "/Shaiharan/static/media/figma.66c3d555e1026dab7020.png",
     "static/media/stars.png": "/Shaiharan/static/media/stars.a979f6ed7ad00c7ea0b2.png",
     "static/media/planets.png": "/Shaiharan/static/media/planets.827213af57ae82d007cd.png",
+    "static/media/twitter.png": "/Shaiharan/static/media/twitter.d0a54f09725fc1de7121.png",
     "index.html": "/Shaiharan/index.html",
     "main.9340fd93.css.map": "/Shaiharan/static/css/main.9340fd93.css.map",
-    "main.72604f56.js.map": "/Shaiharan/static/js/main.72604f56.js.map",
+    "main.40639d93.js.map": "/Shaiharan/static/js/main.40639d93.js.map",
     "787.82c93b8f.chunk.js.map": "/Shaiharan/static/js/787.82c93b8f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9340fd93.css",
-    "static/js/main.72604f56.js"
+    "static/js/main.40639d93.js"
   ]
 }
