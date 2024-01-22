@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Shaiharan/static/css/main.bbb89120.css",
+    "main.css": "/Shaiharan/static/css/main.d21c17a3.css",
     "main.js": "/Shaiharan/static/js/main.93ad8c18.js",
     "static/js/787.82c93b8f.chunk.js": "/Shaiharan/static/js/787.82c93b8f.chunk.js",
     "static/media/medscape.png": "/Shaiharan/static/media/medscape.283b2cabd2c456ff7847.png",
@@ -12,12 +12,12 @@
     "static/media/planets.png": "/Shaiharan/static/media/planets.827213af57ae82d007cd.png",
     "static/media/twitter.png": "/Shaiharan/static/media/twitter.d0a54f09725fc1de7121.png",
     "index.html": "/Shaiharan/index.html",
-    "main.bbb89120.css.map": "/Shaiharan/static/css/main.bbb89120.css.map",
+    "main.d21c17a3.css.map": "/Shaiharan/static/css/main.d21c17a3.css.map",
     "main.93ad8c18.js.map": "/Shaiharan/static/js/main.93ad8c18.js.map",
     "787.82c93b8f.chunk.js.map": "/Shaiharan/static/js/787.82c93b8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbb89120.css",
+    "static/css/main.d21c17a3.css",
     "static/js/main.93ad8c18.js"
   ]
 }
