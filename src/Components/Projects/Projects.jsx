@@ -1,6 +1,8 @@
 import { useRef } from 'react';
 import './Projects.scss';
 import {motion, useScroll, useSpring, useTransform} from "framer-motion";
+import medscapeImage from './medscape.png';
+import vortexImage from './Vortex.png';
 
 const items = [
   {
@@ -9,7 +11,7 @@ const items = [
     date: "2023",
     description:
       "Developed a medical app with API CRUD functionality.Enables user signup, login, and manages medicine details.Implemented as a single-page application.",
-    image: process.env.PUBLIC_URL + "/medscape.png",
+    image: medscapeImage,
     tags: [
       "HTML5",
       "CSS",
@@ -31,7 +33,7 @@ const items = [
     date: "2023",
     description:
       "Developed a ticket booking web application using React.js and Firebase.Implemented user authentication and data storage using Firebase Authentication and Firestore.Created an admin panel for adding new shows.",
-    image: process.env.PUBLIC_URL + "/vortex.png",
+    image: vortexImage,
     tags: [
       "HTML5",
       "CSS",

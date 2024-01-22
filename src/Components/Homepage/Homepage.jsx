@@ -1,5 +1,7 @@
 import './Homepage.scss';
 import {motion} from "framer-motion";
+import scrollImage from './scroll.png'; 
+import heroImage from './hero.png';
 
 const resume = () => {
     const url = "https://docs.google.com/document/d/1Hg295ZjxsOh-5bAeAqq-7aHIfikbOK6v7fL09tAPj00/edit?usp=drivesdk";
@@ -53,14 +55,14 @@ const Homepage = () => {
                 <motion.div variants={textVariants} className="buttons">
                     <motion.button variants={textVariants} onClick={resume}>Check My Resume</motion.button>
                 </motion.div>
-                <motion.img variants={textVariants} animate="scrollbutton" src='/scroll.png' alt='scroll'/>
+                <motion.img variants={textVariants} animate="scrollbutton" src={scrollImage} alt='scroll'/>
             </motion.div>
         </div>
         <motion.div className="slidingtextcontainer" variants={sliderVariants} initial="initial" animate="animate">
             Front-End Developer Shaiharan
         </motion.div>
         <div className="imagecontainer">
-            <img src='/Hero.png' alt='hero'/>
+            <img src={heroImage} alt='hero'/>
         </div>
     </div>
   )
