@@ -31,7 +31,7 @@ const items = [
     date: "2023",
     description:
       "Developed a ticket booking web application using React.js and Firebase.Implemented user authentication and data storage using Firebase Authentication and Firestore.Created an admin panel for adding new shows.",
-    image:"/vortex.png",
+    image: process.env.PUBLIC_URL + "/vortex.png",
     tags: [
       "HTML5",
       "CSS",
