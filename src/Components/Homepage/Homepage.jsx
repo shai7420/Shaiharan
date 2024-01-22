@@ -60,7 +60,7 @@ const Homepage = () => {
             Front-End Developer Shaiharan
         </motion.div>
         <div className="imagecontainer">
-            <img src='/hero.png' alt='hero'/>
+            <img src='/Hero.png' alt='hero'/>
         </div>
     </div>
   )
