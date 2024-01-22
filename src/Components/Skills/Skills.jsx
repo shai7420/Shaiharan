@@ -45,6 +45,7 @@ const Skills = () => {
               skills: [
                   { name: "Git",},
                   { name: "Github",},
+                  { name: "Github Pages",},
                   { name: "Framer Motion",},
                   { name: "VS Code",},
                   { name: "Figma",},

@@ -10,6 +10,8 @@
     align-items: center;
     background: linear-gradient(180deg, #2c3578, #990f4b,);
     overflow: hidden;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 
     .wrapper{
         top: 60px;

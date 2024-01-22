@@ -13,6 +13,8 @@ html{
 body{
   background-color: #990f4b;
   color: aliceblue;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
 a{
