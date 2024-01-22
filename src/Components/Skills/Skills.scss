@@ -1,0 +1,140 @@
+@import "../../App.scss";
+
+.skills{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    background: linear-gradient(180deg, #2c3578, #990f4b,);
+    overflow: hidden;
+
+    .wrapper{
+        top: 60px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1100px;
+        gap: 12px;
+
+        @include desktop {
+            flex-direction: column;
+        }
+
+        @media (max-width: 1095px) {
+            flex-direction: column;
+        }
+
+        @include tablet {
+            flex-direction: column;
+        }
+
+        @include mobile {
+            flex-direction: column;
+        }
+    }
+
+    .title{
+        font-size: 52px;
+        font-weight: 600;
+        color: aliceblue;
+
+        @include tablet{
+            margin-top: 12px;
+            font-size: 40px;
+        }
+
+        @include mobile{
+            margin-top: 12px;
+            font-size: 40px;
+        }
+    }
+
+    .skillsContainer{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .skill{
+        width: 100%;
+        max-width: 500px;
+        background: #990f4b;
+        border: 0.1px solid #854CE6;
+        box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+        border-radius: 16px;
+        padding: 18px 36px;
+
+        @include tablet{
+            max-width: 400px;
+            padding: 10px 36px;
+        }
+
+        @include mobile{
+            max-width: 400px;
+            padding: 10px 36px;
+        }
+        
+        @media (max-width: 500px) {
+            max-width: 330px;
+            padding: 10px 36px;
+        }
+    }
+
+    .skilltitle{
+        font-size: 28px;
+        font-weight: 600;
+        color: aliceblue;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .skillList{
+        display: flex;
+        justify-content: center; 
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .skillitem{
+        font-size: 16px;
+        font-weight: 400;
+        color: aliceblue;
+        border: 1px solid aliceblue;
+        border-radius: 12px;
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        
+        @include desktop{
+            font-size: 14px;
+            padding: 8px 12px;
+        }
+        
+        @include tablet{
+            font-size: 14px;
+            padding: 8px 12px;
+        }
+
+        @include mobile{
+            font-size: 14px;
+            padding: 8px 12px;
+        }
+
+        @media (max-width: 500px) {
+            font-size: 14px;
+            padding: 6px 12px;
+        }
+    }
+}

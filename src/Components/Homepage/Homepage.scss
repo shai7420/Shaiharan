@@ -1,0 +1,124 @@
+@import "../../App.scss";
+
+.homepage{
+    overflow: hidden;
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg, #990f4b, #ff0000);
+    position: relative;
+    overflow: hidden;
+
+    .wrapper{
+        max-width: 1366px;
+        height: 100%;
+        margin: auto;
+        position: relative;
+        z-index: 3;
+
+        .textcontainer{
+            width: 70%;
+            margin-left: 50px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+
+            @include desktop{
+                margin-left: 100px;
+            }
+
+            @include tablet{
+                margin-left: 0px;
+                height: 50%;
+                width: 100%;
+                gap: 20px;
+                align-items: center;
+                text-align: center;
+            }
+
+            @include mobile{
+                margin-left: 0px;
+                height: 50%;
+                width: 100%;
+                gap: 20px;
+                align-items: center;
+                text-align: center;
+            }
+
+            h2{
+                letter-spacing: 8px;
+                font-size: 30px;
+                color: #0daeff;
+            }
+
+            h1{
+                font-size: 88px;
+
+                @include tablet{
+                    font-size: 54px;
+                }
+
+                @include mobile{
+                    font-size: 36px;
+                }
+            }
+
+            .buttons{
+                button{
+                    font-weight: 300;
+                    padding: 20px;
+                    border: 2px solid aliceblue;
+                    border-radius: 10px;
+                    background-color: transparent;
+                    color: aliceblue;
+                    cursor: pointer;
+                    z-index: 2;
+                }
+            }
+
+            img{
+                width: 50px;
+                z-index: 2;
+            }
+        }
+    }
+
+    .imagecontainer{
+        height: 100%;
+        position: absolute;
+        top: -70px;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+
+        @include tablet{
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            top: 10%;
+            left: 34%;
+            bottom: 0;
+        }
+
+        @include mobile{
+            height: 100%;
+            width: 100%;
+            top: 10%;
+            left: 25%;
+            bottom: 0;
+        }
+    }
+
+    .slidingtextcontainer{
+        position: absolute;
+        font-size: 50vh;
+        bottom: -111px;
+        white-space: nowrap;
+        color: rgba($color: #bd0404, $alpha: 0.3);
+        width: 50%;
+        font-weight: bold;
+        user-select: none;
+        z-index: 1;
+    }
+}
